@@ -63,7 +63,21 @@ li a:hover:not(.active) {
 .active {
 background-color: #4CAF50;
 }
-
+#spin {
+  color:red;
+}
+#spin:after {
+  content:"";
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% { content:"student"; }
+  20% { content:"good at html"; }
+  40% { content:"knows css"; }
+  75% { content:"poster designer"; }
+  90% { content:"freelancer"; }
+  
+}
 </style>
 </head>
 <body>
@@ -77,7 +91,7 @@ background-color: #4CAF50;
 <div class="hero-image">
   <div class="hero-text">
     <h1>Aby varghese</h1><br>
-    <p>I am a student and <span id="spin"></span>!</p>
+    <p>I am a <span id="spin"></span>!</p>
     
   </div>
 </div>
