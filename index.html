@@ -135,6 +135,23 @@ background-color: #4CAF50;
   
   
 }
+p.1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -157,7 +174,7 @@ background-color: #4CAF50;
     <a href="#" class="fa fa-whatsapp"></a><br><br></div></div>
 <div class="b"><center><font color="white">Student By Day<br>Engineer By Night</div></center></font><br>
 <center><div class="c"><font color="red"><p>Personal information</div></center></p></font>
- 
- 
+ <br>
+<p class="1">DOB:04-12-2000<p>
 </body>
 </html>
