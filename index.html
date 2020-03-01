@@ -5,119 +5,7 @@
 <style>
 
 
-.btn {		
-	position: relative;	
-	padding: 1.4rem 4.2rem;
-	padding-right: 3.1rem;
-	font-size: 1.4rem;
-	color: var(--inv);
-	letter-spacing: 1.1rem;
-	text-transform: uppercase;
-	transition: all 600ms cubic-bezier(0.77, 0, 0.175, 1);	
-	cursor: pointer;
-	user-select: none;
-}
 
-.btn:before, .btn:after {
-	content: '';
-	position: absolute;	
-	transition: inherit;
-	z-index: -1;
-}
-
-.btn:hover {
-	color: var(--def);
-	transition-delay: .6s;
-}
-
-.btn:hover:before {
-	transition-delay: 0s;
-}
-{
-	right: 0;
-	border: 1px solid var(--inv);
-	border-left: 0;
-	border-right: 0;	
-}
-
-.from-left:after {
-	left: 0;
-}
-
-.from-left:hover:before,
-.from-left:hover:after {
-	width: 100%;
-}
-
-/* From Right */
-
-.from-right:before,.from-right:after {
-	top: 0;
-	width: 0;
-	height: 100%;
-}
-
-.from-right:before {
-	left: 0;
-	border: 1px solid var(--inv);
-	border-left: 0;
-	border-right: 0;	
-}
-
-.from-right:after {
-	right: 0;
-}.from-top:before, 
-.from-top:after {
-	left: 0;
-	height: 0;
-	width: 100%;
-}
-
-.from-top:before {
-	bottom: 0;	
-	border: 1px solid var(--inv);
-	border-top: 0;
-	border-bottom: 0;
-}
-
-.from-top:after {
-	top: 0;
-	height: 0;}
-
-.from-top:hover:before,
-.from-top:hover:after {
-	height: 100%;
-}
-
-/* From Left */
-
-.from-left:before, 
-.from-left:after {
-	top: 0;
-	width: 0;
-	height: 100%;
-}
-
-.from-left:before
-.btn:hover:after {
-	background: var(--inv);
-	transition-delay: .4s;
-}.from-right:after {
-	top: 0;
-	width: 0;
-	height: 100%;
-}
-
-.from-right:before {
-	left: 0;
-	border: 1px solid var(--inv);
-	border-left: 0;
-	border-right: 0;	
-}
-
-.from-right:after {
-	right: 0;
-}
 
 
     
@@ -391,11 +279,6 @@ p.1 {
 <br><b>->CODING</b>
 <br><b>->CRICKET</b>
 <center><div class="c"><font color="white"><p><u>PROJECTS</div></center></p></font></u>
-<div class="btn from-top">From Top</div>
-<div class="btn from-left">From Left</div>
-<div class="btn from-right">From Right</div>
-<div class="btn from-middle">From Middle</div>
-<div class="btn from-bottom">From Bottom</div>
 
 </body>
 </html>
